@@ -1,0 +1,28 @@
+<html>
+<body style="background-color:AliceBlue">
+<h1 align="center"> Job@ground Registration Form</h1>
+<form align = "center" action = "" method = "">
+username<input type = "text" name = "username" placeholder = "enter username"><br>
+password<input type = "text" name = "password" placeholder = "enter password"><br>
+age<input type = "text" name = "age" placeholder = "enter age"><br>
+phone number<input type = "text" name = "phone number" placeholder = "enter phone number"><br>
+emailid<input type = "email" name = "emailid" placeholder = "enter emailid"><br>
+
+<h3 align="center"> Select highest Qualification</h3>
+<select>
+<option value = "MTECH" >PH.D</option>
+<option value = "MTECH" >M.Tech</option>
+<option value = "MCA">MCA</option>
+<option value = "MBA">MBA</option>
+<option value = "B.Tech">B.Tech</option>
+<option value = "BSC">BSC</option>
+</select>
+<br>
+<h3 align="center"> Enter Gender</h3>
+<input type = "radio" name ="gender" id = "gender1"  value = "male">
+<label for = "gender1">male</label><br>
+<input type = "radio" name ="gender" id = "gender2"  value = "female">
+<label for = "gender2">female</label><br>
+<input type = "submit" value = "register"><br>
+</body>
+</html>
